@@ -1,0 +1,94 @@
+body {
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f7f7f7;
+}
+
+.lib-panel {
+    margin-bottom: 20Px;
+}
+.lib-panel img {
+    width: 100%;
+    background-color: transparent;
+}
+
+.lib-panel .row,
+.lib-panel .col-md-6 {
+    padding: 0;
+    background-color: #FFFFFF;
+}
+
+
+.lib-panel .lib-row {
+    padding: 0 20px 0 20px;
+}
+
+.lib-panel .lib-row.lib-header {
+    background-color: #FFFFFF;
+    font-size: 20px;
+    padding: 10px 20px 0 20px;
+}
+
+.lib-panel .lib-row.lib-header .lib-header-seperator {
+    height: 2px;
+    width: 26px;
+    background-color: #d9d9d9;
+    margin: 7px 0 7px 0;
+}
+
+.lib-panel .lib-row select{
+    width:100px;
+    height:30px;
+    border-radius:10px;
+
+    
+   
+}
+.lib-panel .lib-row label{
+    font-family:times;
+    font-size:20px;
+    font-weight:bolder;
+    
+}
+.lib-panel .lib-row input{
+    width:100px;
+    border-radius:10px;
+}
+.lib-panel .lib-row a{
+    color:white;
+    display:block;
+    font-weight:bolder;
+    font-size:19px;
+    background:green;
+    padding:10px 15px;
+    border-radius:10px;
+    text-align:center;
+    font-family:courier;
+    text-decoration:none;
+
+}
+.lib-panel .lib-row a:hover{
+    background:none;
+    color:black;
+    border:1px solid green;
+}
+
+.lib-panel .lib-row.lib-desc a{
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    left: 20px;
+}
+
+.row-margin-bottom {
+    margin-bottom: 20px;
+}
+
+.box-shadow {
+    -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,.10);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.10);
+}
+
+.no-padding {
+    padding: 0;
+}
